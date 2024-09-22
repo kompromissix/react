@@ -4,7 +4,7 @@ import vv from './assets/Block_6.png'
 let img1 = hh
 let img2 = gg
 let img3 = vv
-export const ways = [
+export const photo = [
     {
         img: img1,
     },

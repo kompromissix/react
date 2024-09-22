@@ -1,0 +1,27 @@
+.block-big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+span{
+    color: blue;
+    font-size: 40px;
+}
+.block1{
+    font-size: 32px;
+    color: black;
+}
+.block1{
+    font-size: 30px;
+    color: #2F353FB2;
+}

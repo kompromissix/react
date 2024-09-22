@@ -2,7 +2,7 @@ import logo from '../assets/logo.png'
 import '../css/class.css'
 import arrow from '../assets/arrow-square-down.png'
 import button from '../assets/Button.png'
-
+import button2 from '../assets/Button21.png'
 function Header() {
   const now = new Date()
   return (
@@ -35,11 +35,13 @@ function Header() {
           </div>
         </nav>
         <div className='header-bottom'>
-          <div>
+          <div className='header-bottom-up'>
             <p>Developing IT solutions to scale up your business</p>
             <div></div>
           </div>
-          <div></div>
+          <div>
+            <img src={button2} alt="" />
+          </div>
         </div>
       </header>
     </>
